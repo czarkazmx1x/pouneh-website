@@ -6,6 +6,9 @@ import Link from 'next/link'
 import { createClient } from '@/lib/supabase/client'
 import { getTodaysMoonPhase, getSimplifiedPhase, type MoonPhaseData } from '@/lib/api/moonPhase'
 
+// Force dynamic rendering to avoid build-time errors
+export const dynamic = 'force-dynamic'
+
 interface JournalEntry {
   id: string
   date: string
