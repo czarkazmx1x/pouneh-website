@@ -1,0 +1,9 @@
+name = "pouneh-website"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = ".vercel/output/static"
+
+# Environment variables (optional)
+# [env.production.vars]
+# DATABASE_URL = "your-database-url"
+# NEXTAUTH_SECRET = "your-nextauth-secret"
+# NEXTAUTH_URL = "https://your-domain.pages.dev"
